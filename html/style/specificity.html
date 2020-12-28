@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+            /* specificity means property which is having high specificity will be displayed */
+
+            /* low specificity hence this property is not displayed */
+            
+            .favourite{
+                color:red;
+                font-weight: bold;
+               
+            }
+
+            ul#drink li{
+                color:aqua;
+                font-size: 20px;
+                font-weight: normal;
+            }
+
+            /* high specificity hence this property is displayed */
+           
+
+    </style>
+</head>
+<body>
+    <ul id="drink">
+            <li>Appy juice</li>
+            <li class="favourite">Fruti</li>
+            <li>Fanta</li>
+    </ul>
+    
+</body>
+</html>

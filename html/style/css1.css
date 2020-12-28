@@ -1,0 +1,26 @@
+h1{
+    color:black;
+    background-color: rgb(183, 240, 28);
+}
+.background{
+    background-image: url("back.jpg");
+
+    background-attachment:scroll;   /*make background image fix*/
+
+   /* mandator things */
+    background-repeat: no-repeat;
+    background-size: 700px;
+    height: 700px;
+    width: 700px;
+}
+
+.font{
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+
+}
+
+#gfont{
+    font-size: 1.2em;
+    font-family: 'Pacifico', cursive;
+}

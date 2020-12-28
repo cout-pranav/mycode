@@ -1,0 +1,26 @@
+
+ 
+ nav{
+     overflow: hidden;
+     background-color: black;
+     padding:20px;
+ }
+ nav a{
+     padding:15px;
+     text-decoration: none;
+     text-align: center;
+     color:white;
+     float:left;
+ }
+
+/* 
+  hover => when mouse is moved at that element 
+ background becomes white and font becomes black */
+
+ nav a:hover{
+
+    text-decoration: none;
+    color:black;
+    background-color:rgb(255, 255, 255);
+   
+}
