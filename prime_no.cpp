@@ -10,7 +10,7 @@ bool isprime(int num)
     
     for(int div=2;div<=sqrt(num);div++)
     {
-        if(num%div==0)
+        if(num%div==0)// if divisible
             return false;
     }
     return true;
